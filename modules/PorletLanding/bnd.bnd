@@ -1,0 +1,4 @@
+Bundle-Name: PorletLanding
+Bundle-SymbolicName: com.emcali.altoConsumo.porletLanding
+Bundle-Version: 1.0.0
+Export-Package: com.emcali.altoConsumo.porletLanding.constants

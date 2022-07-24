@@ -1,0 +1,193 @@
+.PorletLanding {
+
+}
+
+/*Cards*/
+.container-card{
+	width: 100%;
+	display: flex;
+	max-width: 1100px;
+	margin: auto;
+}
+.title-cards{
+	width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px;
+	text-align: center;
+	color: #7a7a7a;
+}
+.card{
+	width: 100%;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+.card img{
+	width: 100%;
+	height: 210px;
+}
+.card .contenido-card{
+	padding: 15px;
+	text-align: center;
+}
+.card .contenido-card h3{
+	margin-bottom: 15px;
+	color: #7a7a7a;
+}
+.card .contenido-card p{
+	line-height: 1.8;
+	color: #6a6a6a;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.card .contenido-card a{
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #2fb4cc;
+	border: 1px solid #2fb4cc;
+	border-radius: 4px;
+	transition: all 400ms ease;
+	margin-bottom: 5px;
+}
+.card .contenido-card a:hover{
+	background: #2fb4cc;
+	color: #fff;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+	.container-card{
+		flex-wrap: wrap;
+	}
+	.card{
+		margin: 15px;
+	}
+}
+/*Fin-Cards*/
+
+.icon-color{
+	color: darkgreen;
+	font-size: 150px;
+}
+
+.nav > li {
+    width: 33.3% !important;
+}
+
+.nav > li > a {
+    text-align: center;
+}
+
+
+/**********File Inputs**********/
+.container-input {
+    text-align: center;
+    background: #282828;
+    border-top: 5px solid #c39f77;
+    padding: 50px 0;
+    border-radius: 6px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile + label {
+    max-width: 80%;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+}
+
+.inputfile + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    margin-right: 0.25em;
+}
+
+.iborrainputfile {
+	font-size:16px; 
+	font-weight:normal;
+	font-family: 'Lato';
+}
+
+
+/* style 7 */
+
+.inputfile-7 + label {
+    color: #6b6c7e;
+}
+
+.inputfile-7 + label {
+    border: 1px solid #e3e2e2;
+    font-size: 1rem;
+    background-color: #fff;
+    padding: 0;
+}
+
+.inputfile-7:focus + label,
+.inputfile-7.has-focus + label,
+.inputfile-7 + label:hover {
+    border-color: #e3e2e2;
+}
+
+.inputfile-7 + label span,
+.inputfile-7 + label strong {
+    padding: 0.625rem 1.25rem;
+}
+
+.inputfile-7 + label span {
+    width: 200px;
+    min-height: 1em;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.inputfile-7 + label strong {
+    height: 100%;
+    color: #fff;
+    background-color: #c21212;
+    display: inline-block;
+}
+
+.inputfile-7:focus + label strong,
+.inputfile-7.has-focus + label strong,
+.inputfile-7 + label:hover strong {
+    background-color: #ff7272;
+}
+
+@media screen and (max-width: 50em) {
+	.inputfile-7 + label strong {
+		display: block;
+	}
+}
+/**********End File Inputs**********/
